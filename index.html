@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="index.css" />
+    <title>Basketball Scoreboard</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="home team">
+        <h3 class="ff-verdana">HOME</h3>
+        <div id="home-score" class="score">
+          <h1 id="home-point-text" class="ff-CursedTimer">0</h1>
+        </div>
+        <div class="home-point-btns">
+          <button
+            id="home-plus-one-btn"
+            onclick="homePlusOne()"
+            class="btn ff-CursedTimer"
+          >
+            +1
+          </button>
+          <button
+            id="home-plus-two-btn"
+            onclick="homePlusTwo()"
+            class="btn ff-CursedTimer"
+          >
+            +2
+          </button>
+          <button
+            id="home-plus-three-btn"
+            onclick="homePlusThree()"
+            class="btn ff-CursedTimer"
+          >
+            +3
+          </button>
+        </div>
+      </div>
+
+      <div class="guest team">
+        <h3 class="ff-verdana">GUEST</h3>
+        <div id="guest-score" class="score">
+          <h1 id="guest-point-text" class="ff-CursedTimer">0</h1>
+        </div>
+        <div class="guest-point-btns">
+          <button
+            id="guest-plus-one-btn"
+            onclick="guestPlusOne()"
+            class="btn ff-CursedTimer"
+          >
+            +1
+          </button>
+          <button
+            id="guest-plus-two-btn"
+            onclick="guestPlusTwo()"
+            class="btn ff-CursedTimer"
+          >
+            +2
+          </button>
+          <button
+            id="guest-plus-three-btn"
+            onclick="guestPlusThree()"
+            class="btn ff-CursedTimer"
+          >
+            +3
+          </button>
+        </div>
+      </div>
+    </div>
+    <button onclick="resetGame()" class="resetBtn ff-verdana">RESET</button>
+    <script src="index.js"></script>
+  </body>
+</html>
