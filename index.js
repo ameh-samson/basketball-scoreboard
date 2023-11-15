@@ -40,6 +40,8 @@ function guestPlusThree() {
 
 // resetGame
 function resetGame() {
-  homeScore.textContent = 0;
-  guestScore.textContent = 0;
+  score = 0;
+  score2 = 0;
+  homeScore.textContent = score;
+  guestScore.textContent = score;
 }
