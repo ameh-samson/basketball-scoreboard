@@ -1,9 +1,6 @@
 let homeScore = document.getElementById("home-point-text");
 let guestScore = document.getElementById("guest-point-text");
 
-console.log(homeScore);
-console.log(guestScore);
-
 let score = 0;
 
 // home
